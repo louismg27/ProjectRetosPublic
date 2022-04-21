@@ -4,6 +4,7 @@
 @import url(./section.css);
 @import url(./presentacion.css);
 @import url(./footer.css);
+@import url(./table.css);
 
 :root {
   scroll-behavior: smooth;
@@ -23,7 +24,7 @@
   --border-radius: 0.5rem;
   --all-transitions: all 0.25s;
   --menu-color: #000;
-  --heigh-banner:750px;
+  --heigh-banner: 750px;
 }
 
 .body {
@@ -31,9 +32,9 @@
   font-family: 'Overpass', sans-serif;
   color: var(--text-color);
   background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(37, 1, 1, 1) 100%);
-  
 
-  
+
+
   /* 
 
   margin: 0;
@@ -50,10 +51,10 @@
   width: 100%;
   flex-direction: column;
 
-  
+
   padding-top: 10px;
   position: relative;
- margin: 0;
+  margin: 0;
 
   top: 0;
 
@@ -71,9 +72,35 @@
   gap: 2rem;
 }
 
+.main-table { 
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  height: auto;
+  padding-top: 5rem;
+}
+
+.main-table-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.main-table-row i {}
+
+
+@media (min-width: 1200px) {
+  .main-table {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
 
 @media (min-width: 854px) {
   :root {
     --padding-container: 0 0.75em;
   }
 }
+
