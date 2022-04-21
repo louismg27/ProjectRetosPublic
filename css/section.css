@@ -1,0 +1,51 @@
+section {
+    display: flex;
+    padding: 2rem 20%;
+}
+
+.section-presentation {
+    display: flex;
+    position: relative;
+    background: rgb(145, 142, 201);
+    background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(18, 27, 25, 1) 1%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 15%, 100% 0, 100% 80%, 0 100%);
+    padding-top: 5rem;
+}
+
+.section-presentation2 {
+    display: flex;
+    position: relative;
+    background: rgb(145, 142, 201);
+    background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(18, 27, 25, 1) 1%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 15%, 100% 0, 100% 80%, 0 100%);
+}
+
+.section-presentacion-envases {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+  
+
+}
+
+
+.section-presentation__container-contenido {
+    display: flex;
+    padding: 4rem 20%;
+}
+
+
+@media (min-width: 854px) {
+    .section-presentation__container {
+        position: absolute;
+        top: 55vh;
+    }
+
+}
+

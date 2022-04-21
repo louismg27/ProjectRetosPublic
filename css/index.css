@@ -1,0 +1,79 @@
+@import url(./header.css);
+@import url(./profile.css);
+@import url(./banner.css);
+@import url(./section.css);
+@import url(./presentacion.css);
+@import url(./footer.css);
+
+:root {
+  scroll-behavior: smooth;
+  --primary-theme-color: #;
+  --secondary-theme-color: #282c34;
+  --text-color: #fff;
+  --primary-shadow-color: #8888;
+  --secondary-shadow-color: #000000;
+  --button-color: #61dafb;
+  --button-color-active: #fff;
+  --button-text-color: #000;
+  --primary-highlight-color: #61dafb;
+  --secondary-highlight-color: #ffd700;
+  --padding-section: 4rem 0;
+  --padding-container: 0 2rem;
+  --max-width-container: 80%;
+  --border-radius: 0.5rem;
+  --all-transitions: all 0.25s;
+  --menu-color: #000;
+  --heigh-banner:750px;
+}
+
+.body {
+  line-height: 1.8;
+  font-family: 'Overpass', sans-serif;
+  color: var(--text-color);
+  background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(37, 1, 1, 1) 100%);
+  
+
+  
+  /* 
+
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center; */
+}
+
+
+.main {
+  display: flex;
+
+  width: 100%;
+  flex-direction: column;
+
+  
+  padding-top: 10px;
+  position: relative;
+ margin: 0;
+
+  top: 0;
+
+}
+
+.article {
+  display: flex;
+}
+
+.article-container {
+  display: flex;
+  padding: 0 2em;
+  font-size: 1em;
+  margin: 0;
+  gap: 2rem;
+}
+
+
+@media (min-width: 854px) {
+  :root {
+    --padding-container: 0 0.75em;
+  }
+}

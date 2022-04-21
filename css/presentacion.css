@@ -1,0 +1,52 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 5em;
+    padding-left: 32%;
+    padding-right: 32%;
+
+ 
+
+}
+
+.grid img {
+    border: 1px solid rgb(19, 19, 19);
+    box-shadow: 10px 6px 12px 0px rgba(132, 132, 151, 0.35);
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+
+    transition: transform 1s, filter .5s ease-out;
+    
+}
+
+.grid img:hover   {
+    transform: scale(1.08) ;
+  }
+
+
+.grid-container {
+    height: 400px;
+    width: 280px;
+}
+
+@media (min-width: 854px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 5rem;
+        align-items: center;
+        justify-items: center;
+        padding-top: 5em;
+        padding-left: 32%;
+        padding-right: 32%;
+    
+    }
+ 
+    
+}

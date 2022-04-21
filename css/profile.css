@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+
+}
+
+.main-container__figure {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.main-container__figure-img {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+}
