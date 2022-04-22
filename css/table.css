@@ -41,7 +41,7 @@ table.main-table__darkTable thead th:first-child {
 }
 
 
- 
+
 
 @keyframes bounce {
     100% {
@@ -51,10 +51,11 @@ table.main-table__darkTable thead th:first-child {
 }
 
 .main-container {
-    padding-top: 4rem;
 
-    background-color: #41c520;
-    height: auto;
+
+    position: relative;
+    height: 280px;
+    overflow: hidden;
 
 }
 
@@ -85,20 +86,21 @@ table.main-table__darkTable thead th:first-child {
 
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    background-image: linear-gradient(-70deg, rgb(3, 0, 10) 50%, rgb(54, 68, 78) 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
-    position: fixed;
+    position: absolute;
     right: -50%;
     top: 0;
     z-index: -1;
-    height:420px;
+    height: auto;
 }
 
 .bg2 {
     animation-direction: alternate-reverse;
     animation-duration: 4s;
+    position: absolute;
 }
 
 .bg3 {
@@ -123,8 +125,8 @@ h1 {
 
 @media (min-width: 854px) {
     .bg {
-        
-        height: 380px;;
+
+        height: 380px;
+        ;
     }
-  }
-  
+}

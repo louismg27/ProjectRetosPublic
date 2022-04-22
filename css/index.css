@@ -24,7 +24,7 @@
   --border-radius: 0.5rem;
   --all-transitions: all 0.25s;
   --menu-color: #000;
-  --heigh-banner: 750px;
+  --heigh-banner: 950px;
 }
 
 .body {
@@ -79,7 +79,7 @@
   flex-direction: column;
   align-items: center;  
   height: auto;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .main-table-row {
