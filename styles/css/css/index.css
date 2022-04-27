@@ -1,10 +1,11 @@
-@import url(./header.css);
-@import url(./profile.css);
-@import url(./banner.css);
-@import url(./section.css);
-@import url(./presentacion.css);
-@import url(./footer.css);
-@import url(./table.css);
+@import url(/styles/css/css/header.css);
+@import url(/styles/css/css/profile.css);
+@import url(/styles/css/css/banner.css);
+@import url(/styles/css/css/section.css);
+@import url(/styles/css/css/presentacion.css);
+@import url(/styles/css/css/footer.css); 
+@import url(./footerbs.css); 
+@import url(/styles/sass/tablesass.css);
 
 :root {
   scroll-behavior: smooth;
@@ -29,20 +30,11 @@
 }
 
 .body {
-  line-height: 1.8;
+   line-height: 1.8;
   font-family: 'Overpass', sans-serif;
   color: var(--text-color);
-  background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(37, 1, 1, 1) 100%);
-
-
-
-  /* 
-
-  margin: 0;
-  height: 100vh;
-  padding: 0;
-  display: flex;
-  justify-content: center; */
+  background: linear-gradient(90deg, rgba(145, 142, 201, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(4, 1, 33, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(37, 1, 1, 1) 100%); */
+ 
 }
 
 
@@ -91,6 +83,10 @@
 
 .main-table-row i {}
 
+
+.carousel-item{
+  max-height: 30rem;
+}
 
 @media (min-width: 1200px) {
   .main-table {
